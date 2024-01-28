@@ -4,10 +4,9 @@
   "private": true,
   "description": " A basic starter for an express.js API with Typescript",
   "scripts": {
-    "start": "ts-node src/index.ts",
     "dev": "nodemon src/index.ts",
     "build": "tsc",
-    "publish": "node dist/index.js"
+    "start": "pm2 start dist/index.js"
   },
   "license": "MIT",
   "dependencies": {
